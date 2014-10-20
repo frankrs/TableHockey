@@ -61,8 +61,8 @@ public class TitleScreenSetup : Photon.MonoBehaviour {
 				GUILayout.Box(netShit.state.ToString(),guiShit.styles.box);
 				if(GUILayout.Button("Connect",guiShit.styles.button)){
 					PhotonNetwork.offlineMode = false;
-					PhotonNetwork.sendRate = 1000;
-					PhotonNetwork.sendRateOnSerialize = 1000;
+					PhotonNetwork.sendRate = 100;
+					PhotonNetwork.sendRateOnSerialize = 100;
 					Connect();
 					}
 			}
