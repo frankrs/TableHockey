@@ -45,19 +45,21 @@ public class SetUpGame : Photon.MonoBehaviour {
 			yield return new WaitForEndOfFrame();
 		}
 		// create striker object
+
+		var striker = new GameObject();
+
 		if(StaticShit.thisPlayer == ThisPlayer.p1){
-			GameObject striker = PhotonNetwork.Instantiate("striker",new Vector3(0f,-2.5f,0f),Quaternion.identity,0);
-			striker.AddComponent<MoveStriker>();
+			striker = PhotonNetwork.Instantiate("striker",new Vector3(0f,-2.5f,0f),Quaternion.identity,0);
 		}
 		if(StaticShit.thisPlayer == ThisPlayer.p2){
-			GameObject striker = PhotonNetwork.Instantiate("striker",new Vector3(0f,2.5f,0f),Quaternion.identity,0);
-			striker.AddComponent<MoveStriker>();
+			striker = PhotonNetwork.Instantiate("striker",new Vector3(0f,2.5f,0f),Quaternion.identity,0);
 		}
+		//striker = PhotonNetwork.Instantiate("striker",new Vector3(0f,2.5f,0f),Quaternion.identity,0);
 		// crate puck
 		if(PhotonNetwork.isMasterClient){
 			PhotonNetwork.InstantiateSceneObject("Puck",new Vector3(0f,0f,0f),Quaternion.identity,0,null);
 		}
-
+		//striker.AddComponent<MoveStriker>();
 	}
 
 
