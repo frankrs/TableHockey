@@ -12,7 +12,31 @@ Platform assembly: C:\current progects\TableHockey\Buildz\Win\TableHockey_Data\M
 Loading C:\current progects\TableHockey\Buildz\Win\TableHockey_Data\Managed\Assembly-CSharp.dll into Unity Child Domain
 Platform assembly: C:\current progects\TableHockey\Buildz\Win\TableHockey_Data\Managed\Photon3Unity3D.dll (this message is harmless)
 Loading C:\current progects\TableHockey\Buildz\Win\TableHockey_Data\Managed\Photon3Unity3D.dll into Unity Child Domain
-- Completed reload, in  0.069 seconds
+- Completed reload, in  0.054 seconds
+<RI> Initializing input.
+<RI> Input initialized.
+desktop: 1600x900 60Hz; virtual: 1600x900 at 0,0
+Platform assembly: C:\current progects\TableHockey\Buildz\Win\TableHockey_Data\Managed\System.Core.dll (this message is harmless)
+Platform assembly: C:\current progects\TableHockey\Buildz\Win\TableHockey_Data\Managed\System.dll (this message is harmless)
+The referenced script on this Behaviour is missing!
+ 
+(Filename:  Line: 1783)
+
+Initialize engine version: 4.5.0f6 (fd4616464986)
+GfxDevice: creating device client; threaded=1
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.0]
+    Renderer: AMD Radeon HD 6500M/5600/5700 Series (ID=0x68c1)
+    Vendor:   ATI
+    VRAM:     1015 MB
+Begin MonoManager ReloadAssembly
+Platform assembly: C:\current progects\TableHockey\Buildz\Win\TableHockey_Data\Managed\UnityEngine.dll (this message is harmless)
+Loading C:\current progects\TableHockey\Buildz\Win\TableHockey_Data\Managed\UnityEngine.dll into Unity Child Domain
+Platform assembly: C:\current progects\TableHockey\Buildz\Win\TableHockey_Data\Managed\Assembly-CSharp.dll (this message is harmless)
+Loading C:\current progects\TableHockey\Buildz\Win\TableHockey_Data\Managed\Assembly-CSharp.dll into Unity Child Domain
+Platform assembly: C:\current progects\TableHockey\Buildz\Win\TableHockey_Data\Managed\Photon3Unity3D.dll (this message is harmless)
+Loading C:\current progects\TableHockey\Buildz\Win\TableHockey_Data\Managed\Photon3Unity3D.dll into Unity Child Domain
+- Completed reload, in  0.055 seconds
 <RI> Initializing input.
 <RI> Input initialized.
 desktop: 1600x900 60Hz; virtual: 1600x900 at 0,0
@@ -26,7 +50,7 @@ connected
  
 (Filename: C:/BuildAgent/work/aeedb04a1292f85a/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 49)
 
-UnloadTime: 0.540029 ms
+UnloadTime: 0.284448 ms
 OnePlayer
  
 (Filename: C:/BuildAgent/work/aeedb04a1292f85a/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 49)
@@ -38,10 +62,23 @@ p1
 Unloading 4 Unused Serialized files (Serialized files now loaded: 0 / Dirty serialized files: 0)
 
 Unloading 8 unused Assets to reduce memory usage. Loaded Objects now: 401.
-Total: 525.517029 ms (FindLiveObjects: 0.080831 ms CreateObjectMapping: 0.029253 ms MarkObjects: 0.503847 ms  DeleteObjects: 0.092763 ms)
+Total: 0.663585 ms (FindLiveObjects: 0.018475 ms CreateObjectMapping: 0.011932 ms MarkObjects: 0.236335 ms  DeleteObjects: 0.042340 ms)
 
-NullReferenceException: Object reference not set to an instance of an object
-  at GameManager+<Score>c__Iterator2.MoveNext () [0x00000] in <filename unknown>:0 
+connected
  
-(Filename:  Line: -1)
+(Filename: C:/BuildAgent/work/aeedb04a1292f85a/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 49)
+
+UnloadTime: 0.300999 ms
+OnePlayer
+ 
+(Filename: C:/BuildAgent/work/aeedb04a1292f85a/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 49)
+
+p1
+ 
+(Filename: C:/BuildAgent/work/aeedb04a1292f85a/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 49)
+
+Unloading 4 Unused Serialized files (Serialized files now loaded: 0 / Dirty serialized files: 0)
+
+Unloading 8 unused Assets to reduce memory usage. Loaded Objects now: 401.
+Total: 0.790606 ms (FindLiveObjects: 0.018860 ms CreateObjectMapping: 0.012317 ms MarkObjects: 0.245187 ms  DeleteObjects: 0.044649 ms)
 

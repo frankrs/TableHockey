@@ -16,11 +16,11 @@ public class PuckLag : Photon.MonoBehaviour {
 
 	void Update () {
 		if(!photonView.isMine){
-//			transform.position = Vector3.Lerp(transform.position, realPosition, speed*Time.deltaTime);
-//			transform.rotation = Quaternion.Lerp(transform.rotation, realRotation, speed*Time.deltaTime);
+			transform.position = Vector3.Lerp(transform.position, realPosition, speed*Time.deltaTime);
+			transform.rotation = Quaternion.Lerp(transform.rotation, realRotation, speed*Time.deltaTime);
 
-			transform.position = realPosition;
-			transform.rotation = realRotation;
+//			transform.position = realPosition;
+//			transform.rotation = realRotation;
 		}
 	}
 
