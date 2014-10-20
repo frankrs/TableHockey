@@ -12,7 +12,7 @@ Platform assembly: C:\current progects\TableHockey\Buildz\Win\TableHockey_Data\M
 Loading C:\current progects\TableHockey\Buildz\Win\TableHockey_Data\Managed\Assembly-CSharp.dll into Unity Child Domain
 Platform assembly: C:\current progects\TableHockey\Buildz\Win\TableHockey_Data\Managed\Photon3Unity3D.dll (this message is harmless)
 Loading C:\current progects\TableHockey\Buildz\Win\TableHockey_Data\Managed\Photon3Unity3D.dll into Unity Child Domain
-- Completed reload, in  0.065 seconds
+- Completed reload, in  0.063 seconds
 <RI> Initializing input.
 <RI> Input initialized.
 desktop: 1600x900 60Hz; virtual: 1600x900 at 0,0
@@ -26,7 +26,7 @@ connected
  
 (Filename: C:/BuildAgent/work/aeedb04a1292f85a/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 49)
 
-UnloadTime: 0.464201 ms
+UnloadTime: 0.426095 ms
 OnePlayer
  
 (Filename: C:/BuildAgent/work/aeedb04a1292f85a/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 49)
@@ -38,10 +38,5 @@ p1
 Unloading 4 Unused Serialized files (Serialized files now loaded: 0 / Dirty serialized files: 0)
 
 Unloading 8 unused Assets to reduce memory usage. Loaded Objects now: 401.
-Total: 1.205154 ms (FindLiveObjects: 0.048113 ms CreateObjectMapping: 0.021939 ms MarkObjects: 0.364125 ms  DeleteObjects: 0.066204 ms)
-
-NullReferenceException: Object reference not set to an instance of an object
-  at GameManager+<Score>c__Iterator2.MoveNext () [0x00000] in <filename unknown>:0 
- 
-(Filename:  Line: -1)
+Total: 1.531943 ms (FindLiveObjects: 0.056196 ms CreateObjectMapping: 0.026558 ms MarkObjects: 0.475749 ms  DeleteObjects: 0.073132 ms)
 
